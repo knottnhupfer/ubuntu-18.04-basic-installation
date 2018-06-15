@@ -8,7 +8,9 @@
 
  apt install maven openjdk-11-jdk vim-gtk git
 
- apt install openbox obconf obmenu lightdm thunar
+ apt install gmrun thunderbird firefox xterm thunar
+
+ apt install openbox obconf obmenu lightdm
 
 ### Setup openbox
 
