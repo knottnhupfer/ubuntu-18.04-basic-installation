@@ -23,3 +23,9 @@ mkdir -p ~/.config/openbox
 cp config/openbox/rc.xml ~/.config/openbox
 openbox --reconfigure
 ```
+
+### Setup system configuration
+
+```
+cp .vimrc ~/
+```
