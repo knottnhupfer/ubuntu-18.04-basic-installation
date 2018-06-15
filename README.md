@@ -9,7 +9,7 @@ mkdir -p /home/david/.config/bin
 ## Packages to install
 
 ```
-apt install maven openjdk-11-jdk vim-gtk git ansible
+apt install maven openjdk-11-jdk vim-gtk git ansible virtualbox
 
 apt install gmrun thunderbird firefox xterm thunar
 
