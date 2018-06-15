@@ -336,7 +336,7 @@
   </keybind>
   <keybind key="A-t">
     <action name="Execute">
-      <command>xfce4-terminal</command>
+      <command>xterm</command>
 			<startupnotify>
 				<enabled>true</enabled>
 			</startupnotify>
