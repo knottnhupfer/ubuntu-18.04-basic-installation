@@ -1,9 +1,10 @@
 # ubuntu-18.04-basic-installation
 
-## Setup configuration folders
+## Setup generic configuration
 
 ```
 mkdir -p /home/david/.config/bin
+cp .vimrc ~/
 ```
 
 ## Packages to install
@@ -16,7 +17,7 @@ apt install gmrun thunderbird firefox xterm thunar
 apt install openbox obconf obmenu lightdm
 ```
 
-### Setup openbox
+## Setup openbox
 
 ```
 mkdir -p ~/.config/openbox
@@ -24,8 +25,9 @@ cp config/openbox/rc.xml ~/.config/openbox
 openbox --reconfigure
 ```
 
-### Setup system configuration
+## Programs to install not from packages
 
-```
-cp .vimrc ~/
-```
+* IntelliJ
+* Postman
+** apt install libgconf-2-4
+* Visual Studio Code
